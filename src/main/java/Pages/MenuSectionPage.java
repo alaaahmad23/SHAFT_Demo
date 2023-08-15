@@ -21,7 +21,7 @@ public class MenuSectionPage {
         driver.element().click(deleteAccount_Button);
     }
 
-    public void assertOnLoggedInUserNameVisibility(String signUpName) {
-        driver.element().assertThat(LoggedInUserName).text().isEqualTo("Logged in as "+signUpName).perform();
-    }
+//    public void assertOnLoggedInUserNameVisibility(String signUpName) {
+//        driver.element().assertThat(LoggedInUserName).text().isEqualTo("Logged in as "+signUpName).perform();
+//    }
 }

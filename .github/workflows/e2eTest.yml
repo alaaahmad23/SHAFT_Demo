@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
 env:
-  TESTING_SCOPE:"Test_SHAFT.**"
+  TESTING_SCOPE: "Test_SHAFT.**"
 
 jobs:
   Windows_Edge_Local:

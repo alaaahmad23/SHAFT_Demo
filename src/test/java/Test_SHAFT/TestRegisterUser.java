@@ -17,6 +17,7 @@ public class TestRegisterUser  {
     public void test1(){
             new HomePage(driver).assertOnHomePageTitle("Automation Exercise");
             new MenuSectionPage(driver).clickOnSignupButton();
+            new MenuSectionPage(driver).assertOnLoggedInUserNameVisibility("Alaa");
             new SignUpPage(driver).assertOnNewUserSignupTextIsDisplayed("New User Signup!");
             new SignUpPage(driver).signup("Alaa","alaa.ahhmadd23s01@gmail.com");
             new EnterAccountInfoPage(driver).assertOnEnterAccountInfoTextIsDisplayed("ENTER ACCOUNT INFORMATION");
